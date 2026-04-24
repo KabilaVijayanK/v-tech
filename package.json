@@ -1,0 +1,14 @@
+{
+  "name": "v-tech-ascent",
+  "version": "1.0.0",
+  "description": "V-Tech Ascent - Web Application",
+  "private": true,
+  "scripts": {
+    "build": "cd frontend && npm run build",
+    "dev": "cd frontend && npm run dev",
+    "preview": "cd frontend && npm run preview"
+  },
+  "workspaces": [
+    "frontend"
+  ]
+}
