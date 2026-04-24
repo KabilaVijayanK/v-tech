@@ -40,3 +40,17 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Marquee animation example */
+.marquee {
+  animation: marquee 22s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
